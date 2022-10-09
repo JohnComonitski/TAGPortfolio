@@ -1285,7 +1285,7 @@ p {
 }
 /* small mobile :320px. */
 @media (max-width: 767px) {
-
+  
 .section-ptb {
   padding-top: 70px;
   padding-bottom: 70px;
@@ -1483,7 +1483,9 @@ p {
   .logo-area{
     padding-left: 15px;
   }
-
+  .contact-item a {
+    font-size: 14px;
+  }
   .slider-activator .slick-arrow {
     font-size: 20px;
   }

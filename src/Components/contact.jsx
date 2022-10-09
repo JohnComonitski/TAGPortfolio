@@ -25,7 +25,7 @@ export default function Contact() {
                             <div className="ct-item-icon float-left ml-30 mr-20">
                                 <i><FaEnvelope/></i>
                             </div>
-                            <a className="btn-animation" href="/">TheAmericanGameTikTok@gmail.com</a>
+                            <a className="btn-animation small-text" href="/">TheAmericanGameTikTok@gmail.com</a>
                         </div>
                     </div>
                 </div>

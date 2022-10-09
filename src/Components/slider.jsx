@@ -63,7 +63,7 @@ export default function slider() {
                                                 <a href="https://www.tiktok.com/@theamericangame">TikTok</a> | <a
                                                     href="https://www.youtube.com/channel/UC0uUeB5r8Lx1k3CMSlPuI-g">YouTube</a> <br />
                                                 <a href="https://twitter.com/TAG_Football">Twitter</a> | <a
-                                                    href="">Instagram</a>
+                                                    href="">Instagram</a> 
                                             </div>
                                             <div className="slider-cta">
                                                 <Link 

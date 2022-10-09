@@ -63,10 +63,10 @@ export default function Services() {
             <div className="counter-area mt-45">
                 <div className="container">
                     <div className="row">
-                        <SingleCountdown extraClass="mb-4 mb-md-0" title="Followers" start={0} end={5560} duration={3}/>
-                        <SingleCountdown extraClass="mb-4 mb-md-0" title="Totals Likes" start={0} end={144000} duration={3}/>
-                        <SingleCountdown extraClass="mb-4 mb-md-0" title="Views This Week" start={0} end={597000} duration={3}/>
-                        <SingleCountdown title="Views in the Last 60 Days" start={0} end={1100000} duration={3}/>
+                        <SingleCountdown extraClass="mb-4 mb-md-0" title="Followers" start={0} end={5676} duration={3}/>
+                        <SingleCountdown extraClass="mb-4 mb-md-0" title="Totals Likes" start={0} end={150000} duration={3}/>
+                        <SingleCountdown extraClass="mb-4 mb-md-0" title="Views This Week" start={0} end={468000} duration={3}/>
+                        <SingleCountdown title="Views This Month" start={0} end={1100000} duration={3}/>
                     </div>
                 </div>
             </div>
