@@ -41,8 +41,6 @@ export default function Services() {
                     <div style={{"border": "5px"}}className="col-12 col-md-6 mb-4 mb-md-0">
                         <div style={{ display: 'flex', justifyContent: 'center' }}>
                             <TikTokEmbed url="https://www.tiktok.com/@theamericangame/video/7145614216458751274" 
-                            retryDelay={1}
-                            retryDisabled
                             scriptLoadDisabled
                             width={325} />
                         </div>
@@ -50,8 +48,6 @@ export default function Services() {
                     <div className="d-none d-md-flex col-md-6 mb-4 mb-md-0 ">
                         <div style={{ display: 'flex', justifyContent: 'center' }}>
                             <TikTokEmbed url="https://www.tiktok.com/@theamericangame/video/7144077266769792298"                             
-                            retryDelay={1}
-                            retryDisabled
                             scriptLoadDisabled
                             width={325} />
                         </div>
@@ -59,8 +55,6 @@ export default function Services() {
                     <div className="col-12 col-md-6 mb-4 mb-md-0 mt-20">
                         <div style={{ display: 'flex', justifyContent: 'center' }}>
                             <TikTokEmbed url="https://www.tiktok.com/@theamericangame/video/7142943391666408747"                            
-                            retryDelay={1}
-                            retryDisabled
                             scriptLoadDisabled
                             width={325} />
                         </div>
@@ -68,8 +62,6 @@ export default function Services() {
                     <div className="d-none d-md-flex col-md-6 mb-4 mb-md-0 mt-20">
                         <div style={{ display: 'flex', justifyContent: 'center' }}>
                             <TikTokEmbed url="https://www.tiktok.com/@theamericangame/video/7150397312991284526" 
-                            retryDelay={1}
-                            retryDisabled
                             scriptLoadDisabled
                             width={325} />
                         </div>
@@ -79,10 +71,10 @@ export default function Services() {
             <div className="counter-area mt-45">
                 <div className="container">
                     <div className="row">
-                        <SingleCountdown extraClass="mb-4 mb-md-0" title="Followers" start={0} end={5676} duration={3}/>
-                        <SingleCountdown extraClass="mb-4 mb-md-0" title="Totals Likes" start={0} end={150000} duration={3}/>
-                        <SingleCountdown extraClass="mb-4 mb-md-0" title="Views This Week" start={0} end={468000} duration={3}/>
-                        <SingleCountdown title="Views This Month" start={0} end={1100000} duration={3}/>
+                        <SingleCountdown extraClass="mb-4 mb-md-0" title="Followers" start={0} end={5676} duration={2}/>
+                        <SingleCountdown extraClass="mb-4 mb-md-0" title="Totals Likes" start={0} end={150000} duration={2}/>
+                        <SingleCountdown extraClass="mb-4 mb-md-0" title="Views This Week" start={0} end={468000} duration={2}/>
+                        <SingleCountdown title="Views This Month" start={0} end={1100000} duration={2}/>
                     </div>
                 </div>
             </div>
