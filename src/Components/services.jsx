@@ -40,22 +40,38 @@ export default function Services() {
                 <div className="row service-row mt-45">
                     <div style={{"border": "5px"}}className="col-12 col-md-6 mb-4 mb-md-0">
                         <div style={{ display: 'flex', justifyContent: 'center' }}>
-                            <TikTokEmbed url="https://www.tiktok.com/@theamericangame/video/7145614216458751274" width={325} />
+                            <TikTokEmbed url="https://www.tiktok.com/@theamericangame/video/7145614216458751274" 
+                            retryDelay={1}
+                            retryDisabled
+                            scriptLoadDisabled
+                            width={325} />
                         </div>
                     </div>
                     <div className="d-none d-md-flex col-md-6 mb-4 mb-md-0 ">
                         <div style={{ display: 'flex', justifyContent: 'center' }}>
-                            <TikTokEmbed url="https://www.tiktok.com/@theamericangame/video/7144077266769792298" width={325} />
+                            <TikTokEmbed url="https://www.tiktok.com/@theamericangame/video/7144077266769792298"                             
+                            retryDelay={1}
+                            retryDisabled
+                            scriptLoadDisabled
+                            width={325} />
                         </div>
                     </div>
                     <div className="col-12 col-md-6 mb-4 mb-md-0 mt-20">
                         <div style={{ display: 'flex', justifyContent: 'center' }}>
-                            <TikTokEmbed url="https://www.tiktok.com/@theamericangame/video/7142943391666408747" width={325} />
+                            <TikTokEmbed url="https://www.tiktok.com/@theamericangame/video/7142943391666408747"                            
+                            retryDelay={1}
+                            retryDisabled
+                            scriptLoadDisabled
+                            width={325} />
                         </div>
                     </div>
                     <div className="d-none d-md-flex col-md-6 mb-4 mb-md-0 mt-20">
                         <div style={{ display: 'flex', justifyContent: 'center' }}>
-                            <TikTokEmbed url="https://www.tiktok.com/@theamericangame/video/7150397312991284526" width={325} />
+                            <TikTokEmbed url="https://www.tiktok.com/@theamericangame/video/7150397312991284526" 
+                            retryDelay={1}
+                            retryDisabled
+                            scriptLoadDisabled
+                            width={325} />
                         </div>
                     </div>
                 </div>
