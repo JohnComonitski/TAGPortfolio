@@ -62,7 +62,7 @@ export default function Services() {
                     <div className="d-none d-md-flex col-md-6 mb-4 mb-md-0 mt-20">
                         <div style={{ display: 'flex', justifyContent: 'center' }}>
                             <TikTokEmbed url="https://www.tiktok.com/@theamericangame/video/7150397312991284526" 
-                            scriptLoadDisabled
+                            
                             width={325} />
                         </div>
                     </div>
